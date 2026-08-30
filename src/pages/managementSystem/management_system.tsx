@@ -68,7 +68,7 @@ export default function ManagementSystem (){
               <div className="absolute cards  gap-5 w-full z-999 p-14 items-center grid grid-cols-12 ">
                 <div className="col-span-6 bg-[url(./img/managementSystem/cover.png)] bg-cover bg-center rounded-xl aspect-[4/3]"
                 style={{
-                  backgroundImage: `url("${import.meta.env.BASE_URL}img/managementSystsm/cover.png")`,
+                  backgroundImage: `url("${import.meta.env.BASE_URL}img/managementSystem/cover.png")`,
                 }}></div>
                 <div className="col-span-6 flex flex-col gap-4">
                   <div className="w-full ">

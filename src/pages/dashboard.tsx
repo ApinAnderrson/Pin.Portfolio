@@ -449,6 +449,9 @@ export default function Dashboard(){
       <div
         className="max-h-[40rem] min-h-fit h-[65vh] w-screen flex justify-center bg-[url(./img/blackBG.jpg)] bg-center bg-cover"
         id="about_me"
+        style={{
+          backgroundImage: `url("${import.meta.env.BASE_URL}img/blackBG.jpg")`,
+        }}
       >
         <div className="max-w-screen-2xl p-15 relative gap-8 max-h-[60rem] min-h-fit h-[65vh] w-screen grid grid-cols-3 rounded-2xl">
           <div className="col-span-3 flex justify-center items-center text-white text-7xl">

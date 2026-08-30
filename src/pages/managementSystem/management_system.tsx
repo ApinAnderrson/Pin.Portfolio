@@ -66,7 +66,10 @@ export default function ManagementSystem (){
                 />
               </div>
               <div className="absolute cards  gap-5 w-full z-999 p-14 items-center grid grid-cols-12 ">
-                <div className="col-span-6 bg-[url(./img/managementSystem/cover.png)] bg-cover bg-center rounded-xl aspect-[4/3]"></div>
+                <div className="col-span-6 bg-[url(./img/managementSystem/cover.png)] bg-cover bg-center rounded-xl aspect-[4/3]"
+                style={{
+                  backgroundImage: `url("${import.meta.env.BASE_URL}img/managementSystsm/cover.png")`,
+                }}></div>
                 <div className="col-span-6 flex flex-col gap-4">
                   <div className="w-full ">
                     <div className="flex flex-col justify-center gap-4">
@@ -97,7 +100,10 @@ export default function ManagementSystem (){
                 {/* <div className="w-full h-full bg-white"></div> */}
               </div>
               <div className="absolute cards  gap-5 w-full z-999 p-14 items-center grid grid-cols-12 ">
-                <div className="col-span-6 bg-[url(./img/managementSystem/capyschool.png)] bg-cover bg-center rounded-xl aspect-[4/3]"></div>
+                <div className="col-span-6 bg-[url(./img/managementSystem/capyschool.png)] bg-cover bg-center rounded-xl aspect-[4/3]"
+                style={{
+                  backgroundImage: `url("${import.meta.env.BASE_URL}img/managementSystem/capyschool.png")`,
+                }}></div>
                 <div className="col-span-6 flex flex-col gap-4">
                   <div className="w-full ">
                     <div className="flex flex-col justify-center gap-4">
@@ -130,7 +136,10 @@ export default function ManagementSystem (){
                 {/* <div className="w-full h-full bg-white"></div> */}
               </div>
               <div className="absolute cards  gap-5 w-full z-999 p-14 items-center grid grid-cols-12 ">
-                <div className="col-span-6 bg-[url(./img/managementSystem/deart.png)] bg-cover bg-center rounded-xl aspect-[4/3]"></div>
+                <div className="col-span-6 bg-[url(./img/managementSystem/deart.png)] bg-cover bg-center rounded-xl aspect-[4/3]"
+                style={{
+                  backgroundImage: `url("${import.meta.env.BASE_URL}img/managementSystem/deart.png")`,
+                }}></div>
                 <div className="col-span-6 flex flex-col gap-4">
                   <div className="w-full ">
                     <div className="flex flex-col justify-center gap-4">

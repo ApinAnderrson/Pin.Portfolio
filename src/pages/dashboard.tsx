@@ -555,7 +555,12 @@ export default function Dashboard(){
                   professional designs.
                 </p>
               </div>
-              <div className="col-span-6 bg-[url(./img/companyProfile/cover.png)] bg-cover bg-center rounded-xl aspect-[4/3]"></div>
+              <div
+                className="col-span-6 bg-[url(./img/companyProfile/cover.png)] bg-cover bg-center rounded-xl aspect-[4/3]"
+                style={{
+                  backgroundImage: `url("${import.meta.env.BASE_URL}img/companyProfile/cover.png")`,
+                }}
+              ></div>
               <div className="col-span-3 ">
                 <div className="flex flex-col justify-center">
                   <h1 className="text-8xl color01">COMPANY PROFILE</h1>
@@ -580,7 +585,12 @@ export default function Dashboard(){
                   operations and workflow optimization.
                 </p>
               </div>
-              <div className="col-span-6 bg-[url(./img/managementSystem/cover.png)] bg-cover bg-center rounded-xl aspect-[4/3]"></div>
+              <div
+                className="col-span-6 bg-[url(./img/managementSystem/cover.png)] bg-cover bg-center rounded-xl aspect-[4/3]"
+                style={{
+                  backgroundImage: `url("${import.meta.env.BASE_URL}img/managementSystem/cover.png")`,
+                }}
+              ></div>
               <div className="col-span-3 ">
                 <div className="flex flex-col justify-center">
                   <h1 className="text-8xl color01">MANAGEMENT SYSTEM</h1>
@@ -594,7 +604,7 @@ export default function Dashboard(){
               </div>
               {/* <div className="w-full h-full bg-white"></div> */}
             </div>
-            <div className="absolute cards  gap-5 w-full z-999 p-14 rotate-1 grid grid-cols-12 ">
+            {/* <div className="absolute cards  gap-5 w-full z-999 p-14 rotate-1 grid grid-cols-12 ">
               <div className="col-span-3 flex justify-end items-end flex-col gap-3">
                 <div className="flex jetbrain font-bold px-5 py-2 bg-color02 w-fit rounded-sm">
                   TOTAL PROJECTS
@@ -614,8 +624,7 @@ export default function Dashboard(){
                   </button>
                 </div>
               </div>
-              {/* <div className="w-full h-full bg-white"></div> */}
-            </div>
+            </div> */}
             <div className="absolute cards  gap-5 w-full z-999 p-14 rotate-1 grid grid-cols-12 ">
               <div className="col-span-3 flex justify-end items-end flex-col gap-3">
                 <div className="flex jetbrain font-bold px-5 py-2 bg-color02 w-fit rounded-sm">
@@ -627,18 +636,23 @@ export default function Dashboard(){
                   both iOS and Android.
                 </p>
               </div>
-              <div className="col-span-6 bg-[url(./img/apps/cover.png)] bg-center bg-cover rounded-xl aspect-[4/3]"></div>
+              <div
+                className="col-span-6 bg-[url(./img/apps/cover.png)] bg-center bg-cover rounded-xl aspect-[4/3]"
+                style={{
+                  backgroundImage: `url("${import.meta.env.BASE_URL}img/apps/cover.png")`,
+                }}
+              ></div>
               <div className="col-span-3 ">
                 <div className="flex flex-col justify-center">
                   <h1 className="text-8xl color01">MOBILE APPLICATION</h1>
-                  <button className="flex jetbrain font-bold px-5 py-2 bg-color02 w-fit rounded-sm">
+                  {/* <button className="flex jetbrain font-bold px-5 py-2 bg-color02 w-fit rounded-sm">
                     View More
-                  </button>
+                  </button> */}
                 </div>
               </div>
               {/* <div className="w-full h-full bg-white"></div> */}
             </div>
-            <div className="absolute cards  gap-5 w-full z-999 p-14 rotate-1 grid grid-cols-12 ">
+            {/* <div className="absolute cards  gap-5 w-full z-999 p-14 rotate-1 grid grid-cols-12 ">
               <div className="col-span-3 flex justify-end items-end flex-col gap-3">
                 <div className="flex jetbrain font-bold px-5 py-2 bg-color02 w-fit rounded-sm">
                   TOTAL PROJECTS
@@ -658,8 +672,7 @@ export default function Dashboard(){
                   </button>
                 </div>
               </div>
-              {/* <div className="w-full h-full bg-white"></div> */}
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

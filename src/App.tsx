@@ -1,29 +1,30 @@
-// import {useGSAP} from "@gsap/react";
-// import Dashboard from "./pages/dashboard.tsx"
+import { Routes, Route } from "react-router-dom";
 
-import CompanyProfile from "./pages/companyProfile/company_profile";
 import Dashboard from "./pages/dashboard";
+import CompanyProfile from "./pages/companyProfile/company_profile";
 import ManagementSystem from "./pages/managementSystem/management_system";
 
 const App = () => {
-  const path = window.location.pathname;
-  if(path == '/Pin.Portfolio/'){
-    return <Dashboard/>
-  } 
-  else if (path == '/Pin.Portfolio/company_profile'){
-    return <CompanyProfile/>
-  }
-  else if (path == '/Pin.Portfolio/management_system'){
-    return <ManagementSystem/>
-  }
-  else {
-    return path == '/Pin.Portfolio/'
-  }
+  return (
+    <Routes>
+      <Route path="/" element={<Dashboard />} />
+
+      <Route
+        path="/company_profile"
+        element={<CompanyProfile />}
+      />
+
+      <Route
+        path="/management_system"
+        element={<ManagementSystem />}
+      />
+
+      <Route
+        path="*"
+        element={<div>404 - Page not found</div>}
+      />
+    </Routes>
+  );
 };
 
 export default App;
-
-
-
-
-

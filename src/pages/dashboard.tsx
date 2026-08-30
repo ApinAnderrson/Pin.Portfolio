@@ -485,7 +485,12 @@ export default function Dashboard(){
             </p>
             <p className="color02 text-5xl">WEB DEVELOPER</p>
           </div>
-          <div className='bg-white border-2 border-gray-800 h-[70vh] col-span-1 bg-[url("/Pin.Portfolio/img/photo.png")] max-h-[450px] bg-cover bg-center'></div>
+          <div
+            className="bg-white border-2 border-gray-800 h-[70vh] col-span-1 max-h-[450px] bg-cover bg-center"
+            style={{
+              backgroundImage: `url("${import.meta.env.BASE_URL}img/photo.png")`,
+            }}
+          ></div>
           <div className=" flex flex-col items-start justify-end text-left">
             <p className="color01 text-9xl [text-shadow:_10px_10px_0_#E8E8E8,_-10px_-10px_0_#E8E8E8,_10px_-10px_0_#E8E8E8,_-10px_10px_0_#E8E8E8,_0_10px_0_#E8E8E8,_0_-10px_0_#E8E8E8,_10px_0_0_#E8E8E8,_-10px_0_0_#E8E8E8]">
               ANDERSON

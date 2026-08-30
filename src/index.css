@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yesteryear&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Short+Stack&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+@import "tailwindcss";
+
+@font-face {
+    font-family: "myFont";
+    src: url("../public/font/Tanker-Regular.otf");
+}
+
+
+*{
+    font-family: myFont, sans-serif;
+}
+
+.yesteryear{
+    font-family: "Yesteryear", sans-serif;
+}
+
+.rubik{
+    font-family: "Rubik", sans-serif;
+}
+
+.montserrat{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.jetbrain{
+    font-family: "JetBrains Mono",
+        monospace;;
+}
+
+.short-stack{
+    font-family: "Short Stack", cursive;
+}
+
+.color01{
+    color: #7D39E8;
+}
+.bg-color01{
+    background-color: #7D39E8;
+}
+.bg-color02{
+    background-color: #C6FF33;
+}
+
+.color02{
+    color: #C6FF33;
+}
+
+textarea{
+    padding: 0;
+    margin: 0;
+}
+
+/* body{
+    background-image: url("./img/grid_background.jpg");
+    background-size: cover;
+    background-repeat: repeat;
+    background-size: 50rem;
+} */
+
+::-webkit-scrollbar{
+    display: none;
+}

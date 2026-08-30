@@ -7,7 +7,7 @@ import ManagementSystem from "./pages/managementSystem/management_system";
 
 const App = () => {
   const path = window.location.pathname;
-  if(path == '/'){
+  if(path == '/Pin.Portfolio/'){
     return <Dashboard/>
   } 
   else if (path == '/company_profile'){
@@ -17,7 +17,7 @@ const App = () => {
     return <ManagementSystem/>
   }
   else {
-    return path == '/'
+    return path == '/Pin.Portfolio/'
   }
 };
 

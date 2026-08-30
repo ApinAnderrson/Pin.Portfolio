@@ -10,10 +10,10 @@ const App = () => {
   if(path == '/Pin.Portfolio/'){
     return <Dashboard/>
   } 
-  else if (path == '/company_profile'){
+  else if (path == '/Pin.Portfolio/company_profile'){
     return <CompanyProfile/>
   }
-  else if (path == '/management_system'){
+  else if (path == '/Pin.Portfolio/management_system'){
     return <ManagementSystem/>
   }
   else {

@@ -554,7 +554,10 @@ export default function Dashboard(){
               <div className="col-span-3 ">
                 <div className="flex flex-col justify-center">
                   <h1 className="text-8xl color01">COMPANY PROFILE</h1>
-                  <a href="/company_profile" className="flex jetbrain font-bold px-5 py-2 bg-color02 w-fit rounded-sm">
+                  <a
+                    href="/Pin.Portfolio/company_profile"
+                    className="flex jetbrain font-bold px-5 py-2 bg-color02 w-fit rounded-sm"
+                  >
                     View More
                   </a>
                 </div>
@@ -576,7 +579,10 @@ export default function Dashboard(){
               <div className="col-span-3 ">
                 <div className="flex flex-col justify-center">
                   <h1 className="text-8xl color01">MANAGEMENT SYSTEM</h1>
-                  <a href="/management_system" className="flex jetbrain font-bold px-5 py-2 bg-color02 w-fit rounded-sm">
+                  <a
+                    href="/Pin.Portfolio/management_system"
+                    className="flex jetbrain font-bold px-5 py-2 bg-color02 w-fit rounded-sm"
+                  >
                     View More
                   </a>
                 </div>

@@ -1,4 +1,4 @@
-import { File, Folder, Library, Star, User } from "lucide-react";
+import { Folder, Star, User } from "lucide-react";
 
 export default function Navbar(){
     return(

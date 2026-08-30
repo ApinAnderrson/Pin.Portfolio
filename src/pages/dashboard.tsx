@@ -2,8 +2,7 @@
 import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
 import {ScrollTrigger} from "gsap/ScrollTrigger";
-import { ArrowDown, ArrowRight, ArrowUpLeft, Dot, DotIcon, Pause, Play, SkipBack } from "lucide-react";
-import React, { useEffect, useRef, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -17,17 +16,17 @@ export default function Dashboard(){
 
   useEffect(() => {
     const handleScroll = () => {
-      const currentScroll = window.scrollY;
+      // const currentScroll = window.scrollY;
 
       // Total height of the entire document minus the visible screen height
-      const totalScrollableHeight =
-        document.documentElement.scrollHeight - window.innerHeight;
+      // const totalScrollableHeight =
+      //   document.documentElement.scrollHeight - window.innerHeight;
 
       // Calculate percentage (avoid division by zero if the page isn't scrollable)
-      const scrollPercentage =
-        totalScrollableHeight > 0
-          ? (currentScroll / totalScrollableHeight) * 100
-          : 0;
+      // const scrollPercentage =
+      //   totalScrollableHeight > 0
+      //     ? (currentScroll / totalScrollableHeight) * 100
+      //     : 0;
 
       setPercentageScrollBar(
         Math.ceil(

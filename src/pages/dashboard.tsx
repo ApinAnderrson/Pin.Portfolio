@@ -637,7 +637,7 @@ export default function Dashboard(){
                 </p>
               </div>
               <div
-                className="col-span-6 bg-[url(./img/apps/cover.png)] bg-center bg-cover rounded-xl aspect-[4/3]"
+                className="col-span-6 bg-center bg-cover rounded-xl aspect-[4/3]"
                 style={{
                   backgroundImage: `url("${import.meta.env.BASE_URL}img/apps/cover.png")`,
                 }}
